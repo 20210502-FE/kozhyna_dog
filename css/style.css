@@ -1,3 +1,127 @@
 @import "global.css";
 @import "fonts.css";
 
+.header {
+    position: relative;
+}
+
+.header__background-rectangle {
+    position: absolute;
+    right: -15px;
+    top: 0;
+    z-index: -1;
+}
+
+.header__background-pug {
+    position: absolute;
+    right: 5px;
+    top: 76px;
+    mix-blend-mode: darken;
+    z-index: -1;
+}
+
+.nav {
+    padding: 30px 0;
+    justify-content: space-between;
+}
+
+.nav__logo {
+    flex-basis: 86px;
+    max-width: 86px;
+}
+.nav__logo-link{
+    flex-direction: row;
+    align-items: center;
+    font-family: 'Roboto Medium', sans-serif;
+    font-size: 22px;
+    line-height: 26px;
+    color: #000000;
+}
+
+.nav__logo-link  img {
+    padding-right: 5px;
+}
+
+.nav__menu {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-basis: 394px;
+    max-width: 394px;
+}
+
+.nav__menu-link {
+    font-family: 'Roboto Regular', sans-serif;
+    font-size: 16px;
+    line-height: 19px;
+    color: #170C04;
+}
+
+.nav__menu-sub {
+    justify-content: space-between;
+    flex-basis: 138px;
+    max-width: 138px;
+}
+
+.hero-banner {
+    padding-top: 118px;
+    padding-bottom: 276px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero-banner__btn {
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.hero-banner__btn div{
+    margin-right: 20px;
+}
+
+.hero-banner h1 {
+    font-family: 'Poppins Bold', sans-serif;
+    font-size: 100px;
+    line-height: 120px;
+    color: #170C04;
+    margin-bottom: 50px;
+    max-width: 600px;
+}
+
+.btn {
+    border-style: solid;
+    border-width: 1px;
+    display: inline-block;
+}
+
+.btn_orange {
+    background-color: #E27B3A;
+    border-color: #FFFFFF;
+}
+
+.btn_white {
+    background-color: #FFFFFF;
+    border-color: #E27B3A;
+}
+
+.btn_round {
+    border-radius: 24px;
+}
+
+.btn_soft-sqr {
+    border-radius: 4px;
+}
+
+.btn__link {
+    padding: 12px 30px;
+    display: block;
+    font-family: 'Roboto Regular', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #E27B3A;
+}
+
+.btn__link_white {
+    color: #FFFFFF;
+}
+
