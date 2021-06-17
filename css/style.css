@@ -76,7 +76,7 @@
     justify-content: flex-start;
 }
 
-.hero-banner__btn div{
+.hero-banner__btn div:first-child{
     margin-right: 20px;
 }
 
@@ -87,43 +87,6 @@
     color: #170C04;
     margin-bottom: 50px;
     max-width: 600px;
-}
-
-.btn {
-    border-style: solid;
-    border-width: 1px;
-    display: inline-block;
-}
-
-.btn_orange {
-    background-color: #E27B3A;
-    border-color: #FFFFFF;
-}
-
-.btn_white {
-    background-color: #FFFFFF;
-    border-color: #E27B3A;
-}
-
-.btn_round {
-    border-radius: 24px;
-}
-
-.btn_soft-sqr {
-    border-radius: 4px;
-}
-
-.btn__link {
-    padding: 12px 30px;
-    display: block;
-    font-family: 'Roboto Regular', sans-serif;
-    font-size: 16px;
-    line-height: 24px;
-    color: #E27B3A;
-}
-
-.btn__link_white {
-    color: #FFFFFF;
 }
 
 .features {
@@ -180,4 +143,110 @@
     line-height: 24px;
     color: #E27B3A;
     text-align: center;
+}
+
+.popular-products {
+    margin-bottom: 32px;
+}
+
+.popular-products p {
+    max-width: 510px;
+    margin: 0 auto 25px;
+}
+
+.products {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.product {
+    margin-bottom: 66px;
+}
+
+.product__img {
+    border-radius: 20px;
+    margin-bottom: 25px;
+}
+
+.product__img:hover {
+    box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+
+.product h3 {
+    font-family: 'Poppins Meduim', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 37px;
+    text-align: center;
+    color: #170C04;
+    margin-bottom: 9px;
+}
+
+.product a {
+    font-family: 'Roboto Regular', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #E27B3A;
+    display: block;
+    margin: 0 auto;
+}
+
+.product_50 img{
+    flex-basis: 555px;
+    max-width: 555px;
+}
+
+.product_33 img {
+    flex-basis: 360px;
+    max-width: 360px;
+}
+
+.dog-care {
+    position: relative;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.dog-care__img {
+    position: absolute;
+    left: -90px;
+}
+
+.dog-care__content {
+    flex-basis: 42%;
+    max-width: 42%;
+    flex-direction: column;
+    padding-left: 15px;
+    padding-top: 200px;
+    padding-bottom: 160px;
+}
+
+.dog-care__content p {
+    margin-bottom: 40px;
+}
+
+.dog-care__heading-4 {
+    font-family: 'Roboto Medium', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.2em;
+    color: rgba(226, 123, 58, .8);
+    margin-bottom: 5px;
+}
+
+.dog-care__btn {
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.dog-care__btn div:first-child{
+    margin-right: 30px;
 }
